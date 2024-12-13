@@ -35,14 +35,13 @@ class UpgradingCreditSalaryAssessmentViewController: BaseUpgradingCreditViewCont
         super.viewDidLoad()
         viewModel.viewDidLoad()
         title = "Carrington C Manyuchi"
-
+        navigationController?.navigationBar.isHidden = false
     }
     
     @IBAction func nextButtonTapped(_ sender: UIButton) {
         viewModel.nextButtonTapped()
         print("nextButtonTapped")
     }
-    
 }
 
 
